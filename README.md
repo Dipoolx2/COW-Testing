@@ -6,6 +6,8 @@ Usage: ```./cow_test <malloc|mmap>```.
 
 Tested with c++17 on macOS Sequoia 15.5.
 
+Compiled with: ```gcc -O2 -std=c++17 main.cpp -lstdc++ -o cow_test```
+
 ### Results yielded with mode ```mmap```:
 - Page size: 16384
 - Expected change in page faults: 1024
