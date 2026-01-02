@@ -1,5 +1,5 @@
 # Copy-on-write page fault testing
-Simple script that tests the number of page faults caused by initial memory mapping to COW zero buffers.
+Simple script that tests the number of page faults caused by initial memory mapping to COW zero buffers. Script works on macOS and Linux, not on Windows.
 
 Tests available both through explicit memory mapping and malloc.
 Usage: ```./cow_test <malloc|mmap>```.
